@@ -19,15 +19,29 @@ body {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 40rem;
     text-align: center;
     width: 100%;
 }
 
+.centered {
+    height: 100%;
+    justify-content: center;
+}
+
+.wrapper--image {
+    margin: auto;
+    max-width: 272px;
+    width: 100%;
+}
+
 .footer--main {
     background-color: lightgray;
-    float: left;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -45,10 +59,6 @@ body {
     padding: 0 0.5rem;
 }
 
-.business-list {
-    float: left;
-}
+.business-list {}
 
-.legalese-list {
-    float: right;
-}
+.legalese-list {}
