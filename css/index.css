@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper--image {
-    margin: auto;
+    margin: 0 auto;
     max-width: 272px;
     width: 100%;
 }
